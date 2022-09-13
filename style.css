@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(235, 179, 157);
+    font-size: 25px;
+    margin: 50px 0px 100px 20px;
+    font-family: system-ui;
+    }
+img{
+    height: 300px;
+    width: 300px;
+}
+p,
+ol,
+ul{
+    width: 600px;
+}
+h1,
+h2,
+h3,
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-size: 20px;
+    width: 120px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    color: black; /*teksto spalva */
+    /* background-color: rgb(187, 208, 171); */
+    border: rgb(225, 163, 147) 1px solid;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 6px; /*atstumas nuo virsaus zemyn, kai vertikaliai neiscentruotas tekstas*/
+    position: absolute;
+}
+button{
+    background: transparent;
+    color: #00C2BA;
+    width: 150px;
+    height: 36px;
+    font-family: sans-serif;
+    font-size: 24px;
+    border-color: #00C2BA;
+    font-weight: 600;
+    border-radius: 22px;
+    letter-spacing: 7px;
+    transition: 2s;
+}
+.hero{
+    background-color: transparent;
+    background-image: url("../images/pinkk.jpeg");
+    color:rgb(186, 5, 5);
+    font-style:oblique;
+    padding-top: 4px;
+}
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
